@@ -21,6 +21,7 @@ Some of the types of testing that are used in a project are as follow
 
 ## How to write down a good unit test?
 **Independent:** the test focuses on the functionality and it is independent of any API call, DB connection, and external services. Most of the dependencies should be mocked.
+
 **Repeatable:** no matter how many times you run the test, the results should be always the same.
 What is mocked?. Creating a fake version of an external or internal service that can stand in for the real one.
 
@@ -30,7 +31,7 @@ What is mocked?. Creating a fake version of an external or internal service that
 
 **Coverage:** cover as much as you can of your code, most programming languages provide coverage tools. 
 
-Key concepts while testing using Python
+## Key concepts while testing using Python
 
 **- Mock**  
 **- Fixture**  
